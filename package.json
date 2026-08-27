@@ -9,9 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.50",
+    "@ai-sdk/react": "^4.0.86",
+    "@openrouter/ai-sdk-provider": "^3.0.0",
+    "@openrouter/sdk": "^1.2.77",
+    "ai": "^7.0.83",
     "next": "16.3.3",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
