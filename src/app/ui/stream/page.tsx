@@ -1,7 +1,6 @@
 "use client";
 
 import { useCompletion } from "@ai-sdk/react";
-import { is } from "zod/v4/locales/index.js";
 
 export default function CompletionStreamPage() {
   const {
