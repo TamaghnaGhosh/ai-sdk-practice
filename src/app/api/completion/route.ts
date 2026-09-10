@@ -9,7 +9,8 @@ export async function POST(req: Request) {
   try {
     const { prompt } = await req.json();
     const result = await generateText({
-      model: router("nvidia/nemotron-3-ultra-550b-a55b:free"),
+      // model: router("nvidia/nemotron-3-ultra-550b-a55b:free"),
+      model: router("openrouter/free"),
       prompt,
     });
 

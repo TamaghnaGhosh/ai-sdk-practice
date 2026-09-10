@@ -13,7 +13,8 @@ export async function POST(req: Request) {
   try {
     const { prompt } = await req.json();
     const result = streamText({
-      model: router("nvidia/nemotron-3-ultra-550b-a55b:free"),
+      // model: router("nvidia/nemotron-3-ultra-550b-a55b:free"),
+      model: router("openrouter/free"),
       prompt,
       maxRetries: 3,
     });
