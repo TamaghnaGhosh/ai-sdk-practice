@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Large Language Model (LLM)**
 
-## Getting Started
+An LLM is a powerful AI program trained on massive text datasets to predict the next word in a sentence. It uses a Transformer architecture to understand the exact context of words, allowing it to chat, write code, and summarize data like a human.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Retrieval-Augmented Generation (RAG)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+RAG is a technique that attaches a private database to an LLM. When a user asks a question, the system searches the database for the right facts and gives them to the LLM to read first, which stops the AI from making things up.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+**AI Agent**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+An AI Agent is an autonomous assistant powered by an LLM that can think, remember, and use tools. Instead of just answering questions, it can write a plan, call external APIs, check its own work, and solve complex tasks on its own.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Vector Embeddings**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Embeddings are words turned into a list of numbers that represent their actual meaning. This allows computer databases to match similar ideas and concepts (like matching "puppy" with "dog") instead of just looking for exact matching words.
